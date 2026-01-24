@@ -1,0 +1,281 @@
+*{
+  margin: 0px;
+  font-family: arial;
+  border: border-box;
+
+}
+.navbar{
+  height: 50px;
+  background-color:rgb(22, 21, 28);
+  color: #cccccc;
+  font-size: 14px;
+  align-items: center;
+  display: flex;
+
+   
+  
+  
+}
+.nav-logo{
+  width: px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  margin-right: 22px;
+  
+}
+.logo{
+  height: 50px;
+  width: 150px;
+  background-size: cover;
+  background-image:url(https://www.pngplay.com/wp-content/uploads/3/White-Amazon-Logo-PNG-HD-Quality.png);
+  align-items: center;
+  margin-right: 35px;
+
+}
+
+.nav-logo:active{
+  border: 1px solid orange;
+}
+.add-icon{
+  color: rgb(233, 227, 227);
+  display: flex;
+  align-items: center;
+  
+  
+
+}
+.first{
+  font-size: 0.70rem;
+  margin-left: 8px;
+}
+.second{
+  font-size: 15px;
+  color: white;
+}
+.search-icon{
+  width: 40px;
+  height: 35px;
+  background-color:orange;
+  color: rgb(28, 25, 45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.search{
+  display: flex;
+  display: inline-flex;
+  margin-left: 22px;
+  justify-content: space-evenly;
+
+  
+}
+
+  
+  
+
+.placeholder{
+  width:450px;
+  font-size: 1rem;
+  border: none;}
+  .sign{
+    margin-left: 32px;
+
+  }
+  
+  .span{
+    font-size: 0.70rem;
+  }
+  .nav-sec{
+    font-size: 15px;
+    color: white;
+  }
+  .search.in{
+    border: 2px solid orange;
+  }
+  .add-cart i{
+    margin-left: 50px;
+    font-size : 22px;
+    color: white;
+  }
+  *{
+    justify-content: space-around;
+  }
+  .panel{
+    height: 40px;
+    background-color: #222f3d;
+    color:white;
+    display:flex;
+  
+  }
+  .tag {
+    width: 500px;
+    
+    display: flex;
+    font-size: 0.85rem;
+    margin-right: 500px;
+    align-items: center;
+    
+    
+     
+  }
+.tag p{
+  
+  
+  
+  display: inline;
+  margin-left: 10px;
+  
+  
+}
+.sec-div{
+  font-size: 0.89rem;
+  font-weight: 700;
+  
+  
+}
+.panel{
+  align-items: center;
+}
+
+/* hero */
+.hero-section{
+  background-image: url("WhatsApp Image 2026-01-22 at 7.44.31 PM.jpeg");
+  height: 400px;
+  
+background-size: cover;
+align-items: flex-end;
+
+}
+.hero-msg{
+  background-color: white;
+  color: black;
+  height: 40px;
+  width: 80%;
+  display: flex;
+  align-items:center;
+  font-size:0.85rem;
+   position: relative;
+   top: 260px;
+}
+.hero-msg a{
+  color: blueviolet;
+}
+.shop-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #e2e7e6;
+}
+
+.box{
+  border: 2px black solid;
+  height: 350px;
+  width: 23%;
+  background-color: white;
+  padding: 20px 0px 15px;
+  margin-top: 15px;
+}
+.imag-box1{
+  background-image: url(box1.jpg);
+  background-size: cover;
+  height: 320px;
+}
+
+.box-content{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.box p{
+  color: rgb(58, 58, 194);
+
+}
+.imag-box2{
+  background-image: url(box22.jpg);
+  background-size: cover;
+  height: 320px;
+}
+.imag-box3{
+  background-image: url(box33.jpg);
+  background-size: cover;
+  height: 320px;
+}
+.imag-box4{
+  background-image: url(box44.jpg);
+  background-size: cover;
+  height: 320px;
+}
+.imag-box5{
+  background-image: url(box5.jpg);
+  background-size: cover;
+  height: 320px;
+}
+.imag-box6{
+  background-image: url(box66.jpg);
+  background-size: cover;
+  height: 320px;
+}
+.imag-box7{
+  background-image: url(box7.jpg);
+  background-size: cover;
+  height: 320px;
+}
+.imag-box8{
+  background-image: url(box8.lpg.webp);
+  background-size: cover;
+  height: 320px;
+}
+/* footer */
+footer{
+  margin-top: 15px;
+}
+.foot-panel1{
+  height: 50px;
+  background-color:#37475a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.88rem;
+
+}
+.foot-panel2{
+  height: 300px;
+  color: white;
+  background-color: #222f3d;
+  display: flex;
+  justify-content:space-evenly ;
+   
+}
+ul a{
+  display: block;
+  font-size: 0.85rem;
+  margin-top: 10px;
+  color: #dddddd;
+}
+ul p{
+  margin-top: 20px;
+}
+.foot-panel3{
+  background-color: #222f3d;
+  border-top: 0.25px solid white;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foot-logo{
+  height: 50px;
+  width: 150px;
+  background-size: cover;
+  background-image:url(https://www.pngplay.com/wp-content/uploads/3/White-Amazon-Logo-PNG-HD-Quality.png);
+  align-items: center;
+  margin-top: 20px;
+  
+
+}
